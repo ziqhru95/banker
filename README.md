@@ -13,3 +13,5 @@ To run the scripts in the provided GitHub repository, please follow the instruct
 4. The test cases in the project include Q1, Q2, and Q3. You can run all of them together by executing the test suite named "Bank". This will generate a report.
 
 5. Once the scripts have finished running, the generated reports will be available locally at the following path: users/git/katalon/banker-main. You can view the reports in both HTML and CSV formats.
+
+If failed to run due to outdated chrome webdrive, in katalon, select Tools -> updated webdrive -> chrome 
