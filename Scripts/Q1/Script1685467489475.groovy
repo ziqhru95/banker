@@ -69,7 +69,7 @@ testData.each { data ->
         List<WebElement> columns_row = rows_table[row].findElements(By.tagName("td"))
         int columns_count = Math.min(columns_row.size(), 3) // Limit the number of columns to check to 3
 
-      
+   //   
         def concatenatedCellText = columns_row[0].getText() + " " + columns_row[1].getText() + " " + columns_row[2].getText()
 
         
