@@ -23,7 +23,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://petstore3.swagger.io/api/v3/user/linden1</restUrl>
+   <restUrl>https://petstore3.swagger.io/api/v3/user/${username}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

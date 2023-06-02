@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Bank" time="105.68" tests="3" failures="0" errors="0">
+   <testsuite name="Bank" tests="3" failures="0" errors="0" time="105.68" skipped="0" timestamp="2023-06-02 12:05:16" hostname="NextSix - LAPTOP-1RKM9NHJ" id="Test Suites/Bank">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\banker\\Reports\\20230602_120512\\Bank\\20230602_120512"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\banker\\Reports\\20230602_120512\\Bank\\20230602_120512\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NextSix - LAPTOP-1RKM9NHJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.3.104"/>
+         <property name="sessionId" value="1d904ecde9ab1738f3893de16da1baf3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Q1" time="61.945" classname="Test Cases/Q1" status="PASSED">
+         <system-out><![CDATA[2023-06-02 12:05:16 - [TEST_CASE][PASSED] - Test Cases/Q1: Test Cases/Q1
+
+2023-06-02 12:05:17 - [TEST_STEP][PASSED] - openBrowser("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/"): Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/'
+
+2023-06-02 12:05:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-02 12:05:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-02 12:05:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/'
+
+2023-06-02 12:05:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-02 12:05:23 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-02 12:05:23 - [TEST_STEP][PASSED] - testData = [["Christopher", "Connely", "L789C349"], ["Frank", "Christopher", "A897N450"], ["Christopher", "Minka", "M098Q585"], ["Connely", "Jackson", "L789C349"], ["Jackson", "Frank", "L789C349"], ["Minka", "Jackson", "A897N450"], ["Jackson", "Connely", "L789C349"]]: null
+
+2023-06-02 12:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Bank Manager Login")): Object: 'Object Repository/Page_XYZ Bank/button_Bank Manager Login' is clicked on
+
+2023-06-02 12:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Bank Manager Login' is clicked on
+
+2023-06-02 12:05:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer")): Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer' is clicked on
+
+2023-06-02 12:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer' is clicked on
+
+2023-06-02 12:05:25 - [TEST_STEP][PASSED] - testData.each({ java.lang.Object data -> ... }): Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-02 12:05:28 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_First Name_form-control ng-pristine n_693e51'
+
+2023-06-02 12:05:29 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Last Name_form-control ng-pristine ng_64913d'
+
+2023-06-02 12:05:30 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Post Code_form-control ng-pristine ng_b8fd27'
+
+2023-06-02 12:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-02 12:05:33 - [MESSAGE][PASSED] - Text 'Frank' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_First Name_form-control ng-pristine n_693e51'
+
+2023-06-02 12:05:34 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Last Name_form-control ng-pristine ng_64913d'
+
+2023-06-02 12:05:34 - [MESSAGE][PASSED] - Text 'A897N450' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Post Code_form-control ng-pristine ng_b8fd27'
+
+2023-06-02 12:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-02 12:05:37 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_First Name_form-control ng-pristine n_693e51'
+
+2023-06-02 12:05:38 - [MESSAGE][PASSED] - Text 'Minka' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Last Name_form-control ng-pristine ng_64913d'
+
+2023-06-02 12:05:39 - [MESSAGE][PASSED] - Text 'M098Q585' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Post Code_form-control ng-pristine ng_b8fd27'
+
+2023-06-02 12:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-02 12:05:42 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_First Name_form-control ng-pristine n_693e51'
+
+2023-06-02 12:05:43 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Last Name_form-control ng-pristine ng_64913d'
+
+2023-06-02 12:05:43 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Post Code_form-control ng-pristine ng_b8fd27'
+
+2023-06-02 12:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-02 12:05:46 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_First Name_form-control ng-pristine n_693e51'
+
+2023-06-02 12:05:47 - [MESSAGE][PASSED] - Text 'Frank' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Last Name_form-control ng-pristine ng_64913d'
+
+2023-06-02 12:05:47 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Post Code_form-control ng-pristine ng_b8fd27'
+
+2023-06-02 12:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-02 12:05:50 - [MESSAGE][PASSED] - Text 'Minka' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_First Name_form-control ng-pristine n_693e51'
+
+2023-06-02 12:05:51 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Last Name_form-control ng-pristine ng_64913d'
+
+2023-06-02 12:05:52 - [MESSAGE][PASSED] - Text 'A897N450' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Post Code_form-control ng-pristine ng_b8fd27'
+
+2023-06-02 12:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-02 12:05:55 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_First Name_form-control ng-pristine n_693e51'
+
+2023-06-02 12:05:55 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Last Name_form-control ng-pristine ng_64913d'
+
+2023-06-02 12:05:56 - [MESSAGE][PASSED] - Text 'L789C349' is set on object 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/input_Post Code_form-control ng-pristine ng_b8fd27'
+
+2023-06-02 12:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer_submit' is clicked on
+
+2023-06-02 12:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_XYZ Bank/button_Customers")): Object: 'Object Repository/Page_XYZ Bank/button_Customers' is clicked on
+
+2023-06-02 12:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_XYZ Bank/button_Customers' is clicked on
+
+2023-06-02 12:05:57 - [TEST_STEP][PASSED] - allDataInserted = true: null
+
+2023-06-02 12:05:57 - [TEST_STEP][PASSED] - testData.each({ java.lang.Object data -> ... }): Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:05:58 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:00 - [MESSAGE][PASSED] - Text 'Frank' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:02 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:05 - [MESSAGE][PASSED] - Text 'Connely' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:07 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:09 - [MESSAGE][PASSED] - Text 'Minka' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:11 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:13 - [TEST_STEP][PASSED] - if (allDataInserted): null
+
+2023-06-02 12:06:13 - [TEST_STEP][PASSED] - out.println("All data has been successfully inserted."): null
+
+2023-06-02 12:06:13 - [TEST_STEP][PASSED] - deletedata = [["Christopher", "Connely", "L789C349"], ["Jackson", "Frank", "L789C349"]]: null
+
+2023-06-02 12:06:13 - [TEST_STEP][PASSED] - allDataDeleted = true: null
+
+2023-06-02 12:06:13 - [TEST_STEP][PASSED] - deletedata.each({ java.lang.Object data -> ... }): Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:14 - [MESSAGE][PASSED] - Text 'Christopher' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:17 - [MESSAGE][PASSED] - Text 'Jackson' is set on object 'Object Repository/Page_XYZ Bank/input_Customers_form-control ng-pristine ng-untouched ng-valid'
+
+2023-06-02 12:06:18 - [TEST_STEP][PASSED] - if (allDataDeleted): null
+
+2023-06-02 12:06:18 - [TEST_STEP][PASSED] - out.println("All data has been successfully deleted."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Q2" time="27.095" classname="Test Cases/Q2" status="PASSED">
+         <system-out><![CDATA[2023-06-02 12:06:18 - [TEST_CASE][PASSED] - Test Cases/Q2: Test Cases/Q2
+
+2023-06-02 12:06:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-02 12:06:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-06-02 12:06:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-02 12:06:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-02 12:06:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-02 12:06:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/"): Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/' successfully
+
+2023-06-02 12:06:22 - [MESSAGE][PASSED] - Navigate to 'https://www.globalsqa.com/angularJs-protractor/BankingProject/#/' successfully
+
+2023-06-02 12:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Customer Login")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-06-02 12:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Customer Login' is clicked on
+
+2023-06-02 12:06:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b"), "1", true): All options with value '1' are selected in object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-06-02 12:06:25 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/select_---Your Name---       Hermoine Grang_6e895b'  using regular expression
+
+2023-06-02 12:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Login")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Login' is clicked on
+
+2023-06-02 12:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Login' is clicked on
+
+2023-06-02 12:06:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/select_100110021003"), "number:1003", true): All options with value 'number:1003' are selected in object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/select_100110021003'  using regular expression
+
+2023-06-02 12:06:27 - [MESSAGE][PASSED] - All options with value 'number:1003' are selected in object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/select_100110021003'  using regular expression
+
+2023-06-02 12:06:27 - [TEST_STEP][PASSED] - INITIALBALANCE = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0"), STOP_ON_FAILURE).toInteger(): Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '0'
+
+2023-06-02 12:06:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '0'
+
+2023-06-02 12:06:27 - [TEST_STEP][PASSED] - transactions = [50000, -3000, -2000, 5000, -10000, -15000, 1500]: null
+
+2023-06-02 12:06:27 - [TEST_STEP][PASSED] - CURRENTBALANCE = INITIALBALANCE: null
+
+2023-06-02 12:06:27 - [TEST_STEP][PASSED] - for (def transactionAmount : transactions): null
+
+2023-06-02 12:06:27 - [TEST_STEP][PASSED] - if (transactionAmount > 0): null
+
+2023-06-02 12:06:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-06-02 12:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-06-02 12:06:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), transactionAmount.toString()): Text '50000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:29 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-06-02 12:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-06-02 12:06:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful"), "Deposit Successful"): Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-06-02 12:06:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-06-02 12:06:30 - [TEST_STEP][PASSED] - CURRENTBALANCE += transactionAmount: null
+
+2023-06-02 12:06:30 - [TEST_STEP][PASSED] - verifyMatch(latestbalance = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0")), CURRENTBALANCE.toString(), false, CONTINUE_ON_FAILURE): Actual text '50000' and expected text '50000' are matched 
+
+2023-06-02 12:06:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '50000'
+
+2023-06-02 12:06:30 - [MESSAGE][PASSED] - Actual text '50000' and expected text '50000' are matched 
+
+2023-06-02 12:06:30 - [TEST_STEP][PASSED] - println(latestbalance + "&" + CURRENTBALANCE): null
+
+2023-06-02 12:06:30 - [TEST_STEP][PASSED] - if (transactionAmount > 0): null
+
+2023-06-02 12:06:30 - [TEST_STEP][PASSED] - else: Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), transactionAmount.toString()): Text '3000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:31 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:32 - [TEST_STEP][PASSED] - CURRENTBALANCE -= transactionAmount: null
+
+2023-06-02 12:06:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful"), "Transaction successful"): Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:32 - [TEST_STEP][PASSED] - verifyMatch(latestbalance = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0")), CURRENTBALANCE.toString(), false, CONTINUE_ON_FAILURE): Actual text '47000' and expected text '47000' are matched 
+
+2023-06-02 12:06:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '47000'
+
+2023-06-02 12:06:33 - [MESSAGE][PASSED] - Actual text '47000' and expected text '47000' are matched 
+
+2023-06-02 12:06:33 - [TEST_STEP][PASSED] - println(latestbalance + "&" + CURRENTBALANCE): null
+
+2023-06-02 12:06:33 - [TEST_STEP][PASSED] - if (transactionAmount > 0): null
+
+2023-06-02 12:06:33 - [TEST_STEP][PASSED] - else: Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), transactionAmount.toString()): Text '2000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:34 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:34 - [TEST_STEP][PASSED] - CURRENTBALANCE -= transactionAmount: null
+
+2023-06-02 12:06:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful"), "Transaction successful"): Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:35 - [TEST_STEP][PASSED] - verifyMatch(latestbalance = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0")), CURRENTBALANCE.toString(), false, CONTINUE_ON_FAILURE): Actual text '45000' and expected text '45000' are matched 
+
+2023-06-02 12:06:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '45000'
+
+2023-06-02 12:06:35 - [MESSAGE][PASSED] - Actual text '45000' and expected text '45000' are matched 
+
+2023-06-02 12:06:35 - [TEST_STEP][PASSED] - println(latestbalance + "&" + CURRENTBALANCE): null
+
+2023-06-02 12:06:35 - [TEST_STEP][PASSED] - if (transactionAmount > 0): null
+
+2023-06-02 12:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-06-02 12:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-06-02 12:06:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), transactionAmount.toString()): Text '5000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:36 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-06-02 12:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-06-02 12:06:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful"), "Deposit Successful"): Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-06-02 12:06:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-06-02 12:06:37 - [TEST_STEP][PASSED] - CURRENTBALANCE += transactionAmount: null
+
+2023-06-02 12:06:37 - [TEST_STEP][PASSED] - verifyMatch(latestbalance = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0")), CURRENTBALANCE.toString(), false, CONTINUE_ON_FAILURE): Actual text '50000' and expected text '50000' are matched 
+
+2023-06-02 12:06:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '50000'
+
+2023-06-02 12:06:37 - [MESSAGE][PASSED] - Actual text '50000' and expected text '50000' are matched 
+
+2023-06-02 12:06:37 - [TEST_STEP][PASSED] - println(latestbalance + "&" + CURRENTBALANCE): null
+
+2023-06-02 12:06:37 - [TEST_STEP][PASSED] - if (transactionAmount > 0): null
+
+2023-06-02 12:06:37 - [TEST_STEP][PASSED] - else: Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), transactionAmount.toString()): Text '10000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:39 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:39 - [TEST_STEP][PASSED] - CURRENTBALANCE -= transactionAmount: null
+
+2023-06-02 12:06:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful"), "Transaction successful"): Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:40 - [TEST_STEP][PASSED] - verifyMatch(latestbalance = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0")), CURRENTBALANCE.toString(), false, CONTINUE_ON_FAILURE): Actual text '40000' and expected text '40000' are matched 
+
+2023-06-02 12:06:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '40000'
+
+2023-06-02 12:06:40 - [MESSAGE][PASSED] - Actual text '40000' and expected text '40000' are matched 
+
+2023-06-02 12:06:40 - [TEST_STEP][PASSED] - println(latestbalance + "&" + CURRENTBALANCE): null
+
+2023-06-02 12:06:40 - [TEST_STEP][PASSED] - if (transactionAmount > 0): null
+
+2023-06-02 12:06:40 - [TEST_STEP][PASSED] - else: Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdrawl' is clicked on
+
+2023-06-02 12:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), transactionAmount.toString()): Text '15000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:41 - [MESSAGE][PASSED] - Text '15000' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Withdraw' is clicked on
+
+2023-06-02 12:06:41 - [TEST_STEP][PASSED] - CURRENTBALANCE -= transactionAmount: null
+
+2023-06-02 12:06:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful"), "Transaction successful"): Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Transaction successful' are matched.
+
+2023-06-02 12:06:42 - [TEST_STEP][PASSED] - verifyMatch(latestbalance = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0")), CURRENTBALANCE.toString(), false, CONTINUE_ON_FAILURE): Actual text '25000' and expected text '25000' are matched 
+
+2023-06-02 12:06:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '25000'
+
+2023-06-02 12:06:42 - [MESSAGE][PASSED] - Actual text '25000' and expected text '25000' are matched 
+
+2023-06-02 12:06:42 - [TEST_STEP][PASSED] - println(latestbalance + "&" + CURRENTBALANCE): null
+
+2023-06-02 12:06:42 - [TEST_STEP][PASSED] - if (transactionAmount > 0): null
+
+2023-06-02 12:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-06-02 12:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit' is clicked on
+
+2023-06-02 12:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd"), transactionAmount.toString()): Text '1500' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:43 - [MESSAGE][PASSED] - Text '1500' is set on object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/input_Amount to be Deposited_form-control n_97f4dd'
+
+2023-06-02 12:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1")): Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-06-02 12:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/button_Deposit_1' is clicked on
+
+2023-06-02 12:06:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful"), "Deposit Successful"): Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-06-02 12:06:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/Page_XYZ Bank/span_Deposit Successful' are matched.
+
+2023-06-02 12:06:44 - [TEST_STEP][PASSED] - CURRENTBALANCE += transactionAmount: null
+
+2023-06-02 12:06:44 - [TEST_STEP][PASSED] - verifyMatch(latestbalance = getText(findTestObject("Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0")), CURRENTBALANCE.toString(), false, CONTINUE_ON_FAILURE): Actual text '26500' and expected text '26500' are matched 
+
+2023-06-02 12:06:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Q2/Page_XYZ Bank/Page_XYZ Bank/strong_0' is: '26500'
+
+2023-06-02 12:06:45 - [MESSAGE][PASSED] - Actual text '26500' and expected text '26500' are matched 
+
+2023-06-02 12:06:45 - [TEST_STEP][PASSED] - println(latestbalance + "&" + CURRENTBALANCE): null
+
+2023-06-02 12:06:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-02 12:06:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Q3" time="16.212" classname="Test Cases/Q3" status="PASSED">
+         <system-out><![CDATA[2023-06-02 12:06:46 - [TEST_CASE][PASSED] - Test Cases/Q3: Test Cases/Q3
+
+2023-06-02 12:06:46 - [TEST_STEP][PASSED] - createNewUserRequest = findTestObject("Create New User"): null
+
+2023-06-02 12:06:46 - [TEST_STEP][PASSED] - createNewUserResponse = sendRequest(createNewUserRequest): Send request successfully
+
+2023-06-02 12:06:51 - [MESSAGE][INFO] - HAR: C:\Users\user\git\banker\Reports\20230602_120512\Bank\20230602_120512\requests\main\0.har
+
+2023-06-02 12:06:51 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-02 12:06:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(createNewUserResponse, 200): Verify response status code successfully
+
+2023-06-02 12:06:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-06-02 12:06:51 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2023-06-02 12:06:51 - [TEST_STEP][PASSED] - createNewUserJson = slurper.parseText(createNewUserResponse.getResponseBodyContent()): null
+
+2023-06-02 12:06:51 - [TEST_STEP][PASSED] - username1 = username: null
+
+2023-06-02 12:06:51 - [TEST_STEP][PASSED] - println(username1): null
+
+2023-06-02 12:06:51 - [TEST_STEP][PASSED] - readCreatedUserResponse = sendRequest(findTestObject("Read created user", ["username":username1])): Send request successfully
+
+2023-06-02 12:06:52 - [MESSAGE][INFO] - HAR: C:\Users\user\git\banker\Reports\20230602_120512\Bank\20230602_120512\requests\main\1.har
+
+2023-06-02 12:06:52 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-02 12:06:52 - [TEST_STEP][PASSED] - readCreatedUserJson = slurper.parseText(readCreatedUserResponse.getResponseBodyContent()): null
+
+2023-06-02 12:06:52 - [TEST_STEP][PASSED] - username2 = username: null
+
+2023-06-02 12:06:52 - [TEST_STEP][PASSED] - println(readCreatedUserJson): null
+
+2023-06-02 12:06:52 - [TEST_STEP][PASSED] - newusername1 = "JamesBlunt": null
+
+2023-06-02 12:06:52 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Update Username", ["username":username2, "newusername":newusername1])): Send request successfully
+
+2023-06-02 12:06:54 - [MESSAGE][INFO] - HAR: C:\Users\user\git\banker\Reports\20230602_120512\Bank\20230602_120512\requests\main\2.har
+
+2023-06-02 12:06:54 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-02 12:06:54 - [TEST_STEP][PASSED] - readCreatedUserResponseupdated = sendRequest(findTestObject("Read created user", ["username":newusername1])): Send request successfully
+
+2023-06-02 12:06:57 - [MESSAGE][INFO] - HAR: C:\Users\user\git\banker\Reports\20230602_120512\Bank\20230602_120512\requests\main\3.har
+
+2023-06-02 12:06:57 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-02 12:06:57 - [TEST_STEP][PASSED] - readCreatedUserJsonafterupdated = slurper.parseText(readCreatedUserResponseupdated.getResponseBodyContent()): null
+
+2023-06-02 12:06:57 - [TEST_STEP][PASSED] - println(readCreatedUserJsonafterupdated): null
+
+2023-06-02 12:06:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Delete User", ["username":newusername1])): Send request successfully
+
+2023-06-02 12:06:59 - [MESSAGE][INFO] - HAR: C:\Users\user\git\banker\Reports\20230602_120512\Bank\20230602_120512\requests\main\4.har
+
+2023-06-02 12:06:59 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-02 12:06:59 - [TEST_STEP][PASSED] - readCreatedUserResponsedeleted = sendRequest(findTestObject("Read created user", ["username":newusername1])): Send request successfully
+
+2023-06-02 12:07:02 - [MESSAGE][INFO] - HAR: C:\Users\user\git\banker\Reports\20230602_120512\Bank\20230602_120512\requests\main\5.har
+
+2023-06-02 12:07:02 - [MESSAGE][PASSED] - Send request successfully
+
+2023-06-02 12:07:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(readCreatedUserResponsedeleted, 404): Verify response status code successfully
+
+2023-06-02 12:07:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-02 12:05:16 - [TEST_SUITE][PASSED] - Bank: Test Cases/Q3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

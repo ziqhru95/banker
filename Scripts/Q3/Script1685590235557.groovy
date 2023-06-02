@@ -18,52 +18,41 @@ import internal.GlobalVariable as GlobalVariable
 
 // -	Create a new user
 def createNewUserRequest = findTestObject('Create New User')
-
 def createNewUserResponse = WS.sendRequest(createNewUserRequest)
-
 WS.verifyResponseStatusCode(createNewUserResponse, 200)
-
 def slurper = new JsonSlurper()
-
 def createNewUserJson = slurper.parseText(createNewUserResponse.getResponseBodyContent())
-
 def username1 = createNewUserJson.username
-
 println(username1)
 
+
 // -	Read the created user
-//def readCreatedUserRequest = findTestObject('Read created user')
+
 def readCreatedUserResponse = WS.sendRequest(findTestObject('Read created user', [('username') : username1]))
-
-//WS.sendRequest(findTestObject('Read created user', [('username') : username1]))
 def readCreatedUserJson = slurper.parseText(readCreatedUserResponse.getResponseBodyContent())
-
 def username2 = readCreatedUserJson.username
-
 println(readCreatedUserJson)
 
-def newusername1= 'James Blunt'
 
 //update username
-WS.sendRequest(findTestObject('Update Username', [('username') : username1, ('newusername') : newusername1]))
-
+def newusername1 = 'JamesBlunt'
+WS.sendRequest(findTestObject('Update Username', [('username') : username2, ('newusername') : newusername1]))
 
 //read updated username
 def readCreatedUserResponseupdated = WS.sendRequest(findTestObject('Read created user', [('username') : newusername1]))
+def readCreatedUserJsonafterupdated = slurper.parseText(readCreatedUserResponseupdated.getResponseBodyContent())
+println(readCreatedUserJsonafterupdated)
 
-def readCreatedUserJsonafterupdated = slurper.parseText(readCreatedUserResponse.getResponseBodyContent())
-
-println readCreatedUserJsonafterupdated
 
 //delete user
-WS.sendRequest(findTestObject('Delete User',[('username'):newusername1]))
+WS.sendRequest(findTestObject('Delete User', [('username') : newusername1]))
 
 
-//verify deleted user using read created user api
-
+//verify deleted user using read created user api which equal should be 404 status then passed.
 def readCreatedUserResponsedeleted = WS.sendRequest(findTestObject('Read created user', [('username') : newusername1]))
+WS.verifyResponseStatusCode(readCreatedUserResponsedeleted, 404)
 
-def readCreatedUserJsonafterdeleted = slurper.parseText(readCreatedUserResponsedeleted.getResponseBodyContent())
 
-println readCreatedUserJsonafterdeleted
+
+
 
