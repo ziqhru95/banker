@@ -21,6 +21,7 @@ def testData = [
     ['Jackson', 'Connely', 'L789C349']
 ]
 //
+//
 WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/button_Bank Manager Login'))
 
 WebUI.click(findTestObject('Object Repository/Page_XYZ Bank/Page_XYZ Bank/button_Add Customer'))
